@@ -1,0 +1,20 @@
+11/12/2011 - v1.1
+- locale settings
+11/12/2011 - v1.2
+- light/dark color scheme
+12/12/2011 - v1.3
+- middle/fixed vertical position
+12/12/2011 - v1.4
+- facebook widget
+13/12/2011 - v1.5
+- show header option
+- separate widget options (Width, Height, Show faces, Show stream, Show header, Color Scheme, Border Color)
+- 3 new tab designs (black)
+- z-index option
+- color picker for border color
+15/12/2011 - v1.6
+- some fixed for IE7
+- fixed border settings 
+- TWITTER SUPPORT!
+28/12/2011 - v1.7
+- Google Plus SUPPORT

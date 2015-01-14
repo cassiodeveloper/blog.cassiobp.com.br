@@ -1,0 +1,159 @@
+/*
+Theme Name: Satoshi v2.0
+Theme URI: http://www.vooshthemes.com
+Description: A Free Portfolio Theme Developed By Voosh Themes. Please look at the <a href="../wp-content/themes/satoshi/instructions/instructions.html">instructions</a> that are included with the file you downloaded <a href="../wp-content/themes/satoshi/instructions/instructions.html">(satoshi/instructions/instructions.html)</a> for details about how to configure this theme. 
+Author: Voosh Themes
+Author URI: http://www.vooshthemes.com
+*/
+
+/* -- Color: Red - #9e1c1c -- */
+
+@import "styles/reset.css";
+
+/* -------------------- */
+/* -- General Styles -- */
+/* -------------------- */
+#wrap { width: 960px; margin: 0 auto; }
+body { font-family: arial, sans-serif; background: url(images/main-bg.png) repeat-x; color: #555; }
+h1, h2, h3, h4, h5 { color: #222; }
+h1 { font-size: 38px; margin: 0 0 30px 0; }
+h2 { font-size: 34px; margin: 0 0 30px 0; }
+h3 { font-size: 20px; margin: 30px 0 10px 0; }
+h4 { font-size: 20px; margin: 30px 0 15px 0; }
+h5 { font-size: 18px; margin: 30px 0 5px 0;}
+p { font-size: 14px; line-height: 22px; margin: 0 0 15px 0; }
+a { text-decoration: none; color: #9e1c1c; }
+a:hover { color: #222; }
+
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+#header { float: left; width: 100%; margin: 50px 0 0 0; }
+#header img { float: left; }
+#header h1 { float: left; font-size: 80px; margin: 8px 0 0 0; }
+#header h1 a { color: #222; }
+#header img.description { float: right; margin: 50px 0 0 0; }
+
+/* --------- */
+/* -- Nav -- */
+/* --------- */
+#nav { float: left; margin: 40px -15px 0 0; border-top: 2px #eee solid; border-bottom: 2px #eee solid; width: 100%; }
+.menu li { padding: 11px 0 10px 0; float: left; position: relative; }
+.menu a { display: block; padding:  10px 45px 8px 0; margin: 0; color: #222; text-decoration: none; font-size: 18px; text-transform: uppercase; font-weight: bold; }
+.menu .current a, .menu li:hover > a { color: #9e1c1c; }
+.menu ul { background: #eee; display: none; margin: 0; padding: 0; width: 260px; position: absolute; top: 42px; left: 0px; border: solid 1px #ddd; }
+.menu ul li { float: none; margin: 0; padding: 0; }
+.menu ul li:hover a, .menu li:hover li a { color: #555; }
+.menu ul a:hover { background: #9e1c1c !important; color: #fff !important; }
+.menu li:hover > ul { display: block; }
+.menu ul a { font-size: 16px; padding-left: 10px; text-transform: none; font-weight: normal; }
+.menu ul ul { left: 250px; top: -3px; }
+.menu li.current_page_item a { color: #9e1c1c; }
+.menu .sub-menu li.current_page_item a { color: #9e1c1c; }
+
+/* ---------------- */
+/* -- Front Page -- */
+/* ---------------- */
+#headline { float: left; margin: 55px 0 0 0; padding-bottom: 45px; border-bottom: 2px #eee solid; width: 100%; }
+#headline img { margin-left: -4px; }
+#headline h2 { font-size: 50px; line-height: 55px; margin-bottom: 10px; color: #222 !important; }
+#featured-section { clear: both; float: left; margin: 65px 0 0 0; padding-bottom: 60px; width: 100%; border-bottom: 2px #eee solid; }
+#featured-section-image { float: left; background: url(images/featured-img-bg.png) no-repeat; width: 460px; height: 285px; }
+#featured-section-image img { margin: 1px 0 0 1px; }
+#featured-section-details { float: right; width: 450px; margin: -4px 0 0 0; }
+#featured-section-details h2 { font-size: 30px; color: #222; margin-bottom: 20px; }
+#featured-section-details p { font-size: 16px; line-height: 26px; }
+.more-details-button { float: left; background: url(images/portfolio-button.png) no-repeat; width: 175px; height: 40px; text-indent: -9999px; margin: 0 0 0 -7px; }
+.more-details-button:hover { float: left; background: url(images/portfolio-button-hover.png) no-repeat; }
+#recent-work { clear: both; float: left; margin: 50px 0 0 0; padding-bottom: 50px; width: 100%; }
+#recent-work h2 { font-size: 22px; color: #222; }
+.recent-project { float: left; margin-left: 50px; width: 280px; margin-bottom: -50px; }
+.recent-project img { border: 1px #ddd solid; }
+.first { margin-left: 0; }
+.recent-project h3 { font-size: 14px; font-weight: bold; color: #222; margin: 15px 0 5px 0; }
+.recent-project p { font-size: 12px; }
+
+/* ------------- */
+/* -- Content -- */
+/* ------------- */
+#main { clear: both; float: left; margin: 50px 0 0 0; width: 100%; }
+.title { margin-top: 0; font-size: 28px; color: #222; margin-bottom: 20px; }
+#content { float: left; width: 500px; }
+
+/* --------------- */
+/* -- Portfolio -- */
+/* --------------- */
+#portfolio-content { float: left; margin: 20px 0 0 0; }
+.portfolio-item { float: left; margin-left: 56px; margin-bottom: 40px; }
+.portfolio-item p { margin-bottom: 2px; }
+.portfolio-item img { border: 1px #ddd solid; }
+.first { margin-left: 0; }
+#project-content { float: left; width: 450px; }
+#project-image-large { float: right; }
+#project-image-large img { border: 1px #ddd solid; }
+
+/* ----------- */
+/* -- Posts -- */
+/* ----------- */
+h3.post-meta { margin: -8px 0 20px 0; padding: 0; color: #888; font-size: 22px; }
+.post { padding: 0 0 40px 0; }
+.post-title { margin-top: 0; line-height: 28px; }
+.post-title a, .archive-title { color: #222; font-size: 26px; }
+.post-title a:hover, .archive-title a:hover { color: #9e1c1c; }
+.more-link { display: block; margin: 10px 0 0 0; }
+.archive-title a { margin-bottom: 30px; }
+.post-navigation { font-size: 14px; }
+
+/* ------------- */
+/* -- Sidebar -- */
+/* ------------- */
+#sidebar { float: right; padding: 20px 0 5px 20px; background-color: #eee; border: 1px #ccc solid; width: 300px; }
+.sidebar-title { margin-top: 0; }
+.sidebar-contact-title { color: #222; margin-bottom: 0; }
+
+/* -------------- */
+/* -- Comments -- */
+/* -------------- */
+#comments { clear: both; float: left; width: 480px; border-top: 2px #eee solid; margin-top: -20px; }
+#comments h3 { padding-bottom: 0; }
+.commentlist { margin: 25px 0 30px 0; }
+.commentlist .comment { border: 1px solid #dddddd; padding: 15px; margin: 15px 0 0 0; background: url(images/input-bg.png) repeat-x; }
+.commentlist .fn { color: #555555; font-size: 18px; margin-bottom: 15px; display: block; }
+.commentlist .url { color: #9e1c1c; font-size: 18px; }
+.commentlist .comment-meta { color: #888888; text-transform: uppercase; font-size: 10px; margin: -4px 0 0 0; }
+.commentlist img { float: right; width: 25px; height: 25px; margin: 0 0 0 7px; padding: 2px; border: 1px solid #cccccc; }
+.commentlist p { margin: 10px 0 10px 0; }
+.commentlist .comment-reply-link { margin: 5px 0 0 -7px; display: block; }
+.commentlist em { font-style: italic; font-size: 12px; }
+
+/* respond form */
+#respond h3 { margin-bottom: 10px; }
+#respond .cancel-comment-reply { padding: 0 0 10px 0; }
+#commentform { width: 480px; margin: 0 0 0 0; }
+#commentform input { background: url(images/input-bg.png) repeat-x; float: left; color: #555555; width: 255px; font-size: 14px; padding: 12px 12px 12px 12px; margin-bottom: 20px; font-family: arial, sans-serif; border: 1px #ddd solid; }
+#commentform textarea { background: url(images/input-bg.png) repeat-x; color: #555555; width: 456px; height: 238px;  margin: 5px 0 0 0; font-size: 14px; padding: 12px 12px; font-family: arial, sans-serif; border: 1px #ddd solid; line-height: 20px; }
+#commentform .submit { background: url(images/comment-button.png) no-repeat; cursor: pointer; margin: 25px 0 0 -7px; color: #fff; width: 175px; height: 40px; border: none; padding: 8px 0; text-indent: -9999px; }
+#commentform .submit:hover { background: url(images/comment-button-hover.png) no-repeat; color: #fff; }
+#commentform label { float: left; padding: 8px 0 0 20px; text-transform: uppercase; color: #888888; font-size: 10px; }
+#commentform .logged { margin: 0; }
+.commentlist .comment-reply-link { margin: 10px 0 0 0; color: #9e1c1c; font-size: 12px; }
+.commentlist .comment-reply-link:hover { color: #555; }
+
+/* ------------------ */
+/* -- Contact Form -- */
+/* ------------------ */
+#contact-form { width: 300px; }
+#contact-form input { border: 1px #ddd solid; padding: 15px; width: 250px; margin: 0 0 15px 0; font-family: arial; color: #555; font-size: 12px; background: url(images/input-bg.png) repeat-x; }
+#contact-form textarea { border: 1px #ddd solid; padding: 15px; width: 375px; margin: 0 0 15px 0; font-family: arial; color: #555; font-size: 12px; background: url(images/textarea-bg.png) repeat-x; line-height: 18px; }
+#contact-form .submit { background: url(images/submit-button.png) no-repeat; cursor: pointer; margin: 0 0 0 -7px; color: #fff; width: 175px; height: 40px; border: none; padding: 8px 0; text-indent: -9999px; }
+#contact-form .submit:hover { background: url(images/submit-button-hover.png) no-repeat; }
+#response { border: 1px #ddd solid; padding: 15px; color: #9e1c1c; background-color: #eee; }
+.hide { display: none; }
+
+/* ------------ */
+/* -- Footer -- */
+/* ------------ */
+#footer { clear: both; float: left; padding: 10px 0 50px 0; border-top: 2px #eee solid; margin: 50px 0 0 0; width: 100%; }
+#footer p { font-size: 12px; color: #888;  }
+#footer .copyright { float: left; }
+#footer .design { float: right; }

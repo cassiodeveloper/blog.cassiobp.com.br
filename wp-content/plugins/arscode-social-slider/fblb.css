@@ -1,0 +1,296 @@
+.fblbCenterOuter *, .fblbReset * { 
+	clear: none;
+	margin: 0; 
+	padding: 0; 
+	border: 0;   
+	font-size: 100%;
+	line-height: 18px;
+}
+.fblbCenterOuter {
+	position: fixed;
+	top: 0;
+	height:100%;
+	display:table;
+	vertical-align:middle;
+	z-index: 10000;
+}
+.fblbCenterInner {
+	position:relative;
+	vertical-align:middle;
+	display:table-cell;
+}
+/* Fixed top */
+.fblbCenterOuter.fblbFixed {
+	position: fixed;
+	top: 0;
+	height: auto;
+	display: block;
+	vertical-align: top;
+	z-index: 10000;
+}
+.fblbFixed .fblbCenterInner {
+}
+
+.fblbWrap {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	position: relative;
+}
+.fblbRight .fblbForm {
+	/* margin-left: 60px;*/
+}
+.fblbHead {
+	position: absolute;
+	z-index: 9999;
+	top: 50%;
+	display: block;
+	text-indent: -9999em;
+	overflow: hidden;
+	cursor: pointer;
+}
+.fblbForm {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.fblbInner {
+	min-height:150px;
+	position: relative;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.fblbHeader {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+/*
+.fblbInnerlight {
+	background: #fff;
+}
+.fblbInnerdark {
+	background: #333;
+}
+.fblbTheme0 .fblbForm {
+	background: #3b5998;
+}
+*/
+/* Tabs */
+.fblbCenterOuterFb.fblbRight .fblbTab1 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb1-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab2 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb2-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab3 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/fb3-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab4 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb4-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab5 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb5-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab6 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/fb6-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab7 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/fb7-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab8 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/fb8-right.png);
+}
+.fblbCenterOuterFb.fblbRight .fblbTab9 .fblbHead {
+	width:  35px;
+	height: 36px;
+	background: url(img/fb9-right.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab1 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb1-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab2 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb2-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab3 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/fb3-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab4 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb4-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab5 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/fb5-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab6 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/fb6-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab7 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/fb7-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab8 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/fb8-left.png);
+}
+.fblbCenterOuterFb.fblbLeft .fblbTab9 .fblbHead {
+	width:  35px;
+	height: 36px;
+	background: url(img/fb9-left.png);
+}
+
+.fblbCenterOuterTw.fblbRight .fblbTab1 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/tw1-right.png);
+}
+.fblbCenterOuterTw.fblbRight .fblbTab2 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/tw2-right.png);
+}
+.fblbCenterOuterTw.fblbRight .fblbTab3 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/tw3-right.png);
+}
+.fblbCenterOuterTw.fblbRight .fblbTab7 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/tw7-right.png);
+}
+.fblbCenterOuterTw.fblbRight .fblbTab8 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/tw8-right.png);
+}
+.fblbCenterOuterTw.fblbRight .fblbTab9 .fblbHead {
+	width:  35px;
+	height: 36px;
+	background: url(img/tw9-right.png);
+}
+
+.fblbCenterOuterTw.fblbLeft .fblbTab1 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/tw1-left.png);
+}
+.fblbCenterOuterTw.fblbLeft .fblbTab2 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/tw2-left.png);
+}
+.fblbCenterOuterTw.fblbLeft .fblbTab3 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/tw3-left.png);
+}
+.fblbCenterOuterTw.fblbLeft .fblbTab7 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/tw7-left.png);
+}
+.fblbCenterOuterTw.fblbLeft .fblbTab8 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/tw8-left.png);
+}
+.fblbCenterOuterTw.fblbLeft .fblbTab9 .fblbHead {
+	width:  35px;
+	height: 36px;
+	background: url(img/tw9-left.png);
+}
+
+.fblbCenterOuterGp.fblbRight .fblbTab1 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/gp1-right.png);
+}
+.fblbCenterOuterGp.fblbRight .fblbTab2 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/gp2-right.png);
+}
+.fblbCenterOuterGp.fblbRight .fblbTab3 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/gp3-right.png);
+}
+.fblbCenterOuterGp.fblbRight .fblbTab7 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/gp7-right.png);
+}
+.fblbCenterOuterGp.fblbRight .fblbTab8 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/gp8-right.png);
+}
+.fblbCenterOuterGp.fblbRight .fblbTab9 .fblbHead {
+	width:  35px;
+	height: 36px;
+	background: url(img/gp9-right.png);
+}
+
+.fblbCenterOuterGp.fblbLeft .fblbTab1 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/gp1-left.png);
+}
+.fblbCenterOuterGp.fblbLeft .fblbTab2 .fblbHead {
+	width: 48px;
+	height: 155px;
+	background: url(img/gp2-left.png);
+}
+.fblbCenterOuterGp.fblbLeft .fblbTab3 .fblbHead {
+	width:  58px;
+	height: 60px;
+	background: url(img/gp3-left.png);
+}
+.fblbCenterOuterGp.fblbLeft .fblbTab7 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/gp7-left.png);
+}
+.fblbCenterOuterGp.fblbLeft .fblbTab8 .fblbHead {
+	width: 28px;
+	height: 90px;
+	background: url(img/gp8-left.png);
+}
+.fblbCenterOuterGp.fblbLeft .fblbTab9 .fblbHead {
+	width:  35px;
+	height: 36px;
+	background: url(img/gp9-left.png);
+}
