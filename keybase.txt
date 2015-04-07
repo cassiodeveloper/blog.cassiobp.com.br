@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/cassiodeveloper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.cassiobp.com.br
+  * I am cassiodeveloper (https://keybase.io/cassiodeveloper) on keybase.
+  * I have a public key with fingerprint 94CD B83E 8158 94C1 4BFF  E788 1AFD AEB8 C8FD 0E78
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "94cdb83e815894c14bffe7881afdaeb8c8fd0e78",
+            "host": "keybase.io",
+            "key_id": "1afdaeb8c8fd0e78",
+            "kid": "01010340880493c29945e6e0dae777035a5cb2964775a5fddbeb992bc345b90520f10a",
+            "uid": "eb545f6d1cb045a11a416561c5802419",
+            "username": "cassiodeveloper"
+        },
+        "service": {
+            "hostname": "blog.cassiobp.com.br",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428448848,
+    "expire_in": 157680000,
+    "prev": "8d6dcb35f4643d0ccaf333f2ef6dbc01294889c3e58ec74f37484858bae02ce7",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMImAnicbZJdSBRBHMBPsyuPSisKhPJhCYKwc2d3dnf2EMsQSiWVwCwLjp3Z2btF
+vT33zjNRkwQpC65MsiDILMtQshAksQ/Soh6CKCgo8sET+pC+CEsfjj5mzd6aeZiZ
+//z+v5n/MA9XLnF5UuaLJwpe5u+4lfJkvKzeVbHJKG/isKU3cr4mrpouDIYZClA7
+bJuhKOfjVEh0jESKgITYHEBsGFRBCGiGrlGMCDJ0ngW4HC5oRZwMpsFahHpNi8XY
+wm/qLPofvnphgwesi5BHiIeqSARVhRKVKc9oRVF4UdIkggVVhorCpoauY4pVVcBE
+hBJWeUngDcBrTFe/oKNYgpIh64BgHkoaABoEsiQDIiFegEB1wAi1Q1otZTTRIhHT
+0mmM1lhhanMtORzbjJmEOi/hFLQI4hor4P1L47CXWLVebDNV2LaiFrFqGBGMRsM+
+RxBtDDsZDRT7F11+bIZ09qosIUZtpghxPsBIEjUdOYACghAhiHI4eihs2tRvOoSk
+yIhnzTmGxpgS6bJOsCgZUIaizhOiGaIoGgJl9WLCA0FlFpWIVEKUKNAQFcikEsIa
+5QVCFc6pri5kcT7IrqkFmDJiBkJatN6mXMvE/YNprhSPy7001fkXLk965r/f0lyy
+7Ge2u+q4/vi+p6tr8Bq4NDFTctu9f/LOu8LWD/sejC0vu1fbPbQl//K6Y1ngRjL4
+a+/05jJvX8XzzMYzhXax/9mGXYNrlmxM3uUSTzP09SVN8Rbf+Tf1/ZXXuR5Q191+
+5XPlTF9v+lhVW1vbwI/RT3F7D392VSf4OmKmXZzb3nBv1/xY8uB40+lAx3zHTfed
+773y+9nVo8HUvNasrdum4zvXHph1Z8pD4675ovbkkYzs3C/Nvxte7JPyKg9P9T+a
+2zqbt/7C7oGxb5PLLvxOVg9PbRE1b6Ln4wnlaulceWLYLMqtKDj36Ff2UWN0Yji/
+5W3nqdJ42cmRxBPkff1qMHvF/uY/Qb8xgw==
+=tjuQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cassiodeveloper
+
+==================================================================
